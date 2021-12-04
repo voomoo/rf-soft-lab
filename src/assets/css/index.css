@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Lato:wght@300;400;700&display=swap");
+
+:root {
+  --background1: #ffffff;
+  --background2: #fbfbfb;
+  --primary-color: #3c57a5;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/*************** appbar starts ***************/
+
+.app-bar {
+  padding: 0px 80px;
+  background-color: var(--background1);
+}
+
+.app-bar button {
+  background-color: var(--primary-color);
+}
+
+/*************** appbar ends ***************/
+
+/*************** hero-section starts ***************/
+.hero-section {
+  background-color: var(--background2);
+  position: relative;
+  margin-top: 60px;
+}
+.hero-section div.col {
+  padding: 40px 0px;
+}
+
+.hero-section .hero-text {
+  margin-top: 60px;
+}
+
+.hero-section .hero-text p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--primary-color);
+}
+
+.hero-section .hero-text h3 {
+  font-family: "Dosis", sans-serif;
+  max-width: 512px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 51px;
+  line-height: 64px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
+
+.hero-section .hero-text h6 {
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.hero-section .hero-img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-section .hero-img img {
+  max-width: 528px;
+}
+
+.hero-section .hero-text button {
+  padding: 8px 50px;
+  background-color: var(--primary-color);
+}
+
+.hero-section img.hero-square {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+  left: 70px;
+}
+
+/*************** hero-section ends ***************/
+/*************** Built for cards starts ***************/
+.built-for-card {
+  max-width: 350px;
+  padding: 100px 0px;
+}
+.built-for-card h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--primary-color);
+}
+
+.built-for-card h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+  margin-top: 10px;
+}
+
+.built-for-card p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 330px;
+  margin: 40px 0px;
+}
+
+.built-for-card h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 72px;
+  opacity: 0.3;
+  color: var(--primary-color);
+  text-align: center;
+}
+/*************** Built for cards ends ***************/
+/*************** about starts ***************/
+
+.about {
+  background-color: var(--background2);
+  padding: 100px 0px;
+}
+.about span {
+  margin-right: 10px;
+  position: relative;
+  bottom: 10px;
+}
+.about h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: var(--primary-color);
+}
+
+.about h2 {
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 58px;
+  max-width: 480px;
+  margin: 30px 0px;
+}
+
+.about p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.about img {
+  max-width: 500px;
+  border-radius: 10px;
+}
+/*************** about ends ***************/
