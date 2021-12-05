@@ -176,3 +176,59 @@ code {
   border-radius: 10px;
 }
 /*************** about ends ***************/
+/*************** our services starts ***************/
+.our-services {
+  padding: 100px 0px;
+}
+
+.our-services h2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+}
+
+.our-services p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin-top: 25px;
+}
+/*************** our services ends ***************/
+/*************** our services card starts ***************/
+.our-services-card {
+  max-width: 400px;
+  padding: 30px 30px;
+  background: rgba(100, 149, 237, 0.05);
+  border: 1px dashed rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  margin: 60px 20px 50px 20px;
+}
+.our-services-card h4 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.our-services-card img {
+  margin: 45px auto;
+  display: block;
+}
+
+.our-services-card p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+/*************** our services card ends ***************/
