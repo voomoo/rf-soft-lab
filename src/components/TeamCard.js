@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import team1 from "../assets/images/team1.png";
 
 const TeamCard = () => {
