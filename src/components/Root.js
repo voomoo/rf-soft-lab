@@ -6,6 +6,8 @@ import BuiltFor from "./BuiltFor";
 import HeroSection from "./HeroSection";
 import About from "./About";
 import OurServices from "./OurServices";
+import Innovation from "./Innovation";
+import OurProducts from "./OurProducts";
 
 function Root() {
   return (
@@ -15,6 +17,8 @@ function Root() {
       <BuiltFor />
       <About />
       <OurServices />
+      <Innovation />
+      <OurProducts />
     </div>
   );
 }

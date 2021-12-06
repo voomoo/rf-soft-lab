@@ -232,3 +232,182 @@ code {
   text-align: center;
 }
 /*************** our services card ends ***************/
+
+/*************** innovation starts ***************/
+.innovation h3 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+}
+
+.innovation h2 {
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 58px;
+  max-width: 430px;
+}
+
+.innovation h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.innovation p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin: 20px 0px 100px 0px;
+}
+
+.innovation iframe {
+  width: 575px;
+  height: 320px;
+  border-radius: 20px;
+  margin-bottom: 60px;
+}
+
+.innovation button {
+  margin: 20px 0px 60px 0px;
+}
+/*************** innovation ends ***************/
+
+/*************** education blog starts ***************/
+.education_blog {
+  text-align: left;
+  margin: 60px 0px;
+  max-width: 350px !important;
+}
+.education_blog small {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+  opacity: 0.5;
+  text-align: left !important;
+}
+
+.education_blog span {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  display: block;
+  margin: 10px 0px;
+}
+
+.education_blog p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+  margin: 0px;
+}
+
+.education_blog .card-body {
+  background-color: rgba(175, 200, 244, 0.25);
+  padding: 0px 100px 0px 20px;
+}
+
+.education_blog button {
+  margin: 0px;
+}
+/*************** education blog ends ***************/
+
+/*************** our products starts ***************/
+
+.our-products {
+  background-color: var(--background2);
+  padding: 40px 0px;
+}
+
+.our-products h2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.our-products p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  max-width: 200px;
+  margin: 0px auto;
+  margin-bottom: 100px;
+}
+
+.our-products h3 {
+  font-family: Dosis;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 58px;
+  max-width: 350px;
+}
+
+.our-products h4 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: var(--primary-color);
+}
+
+.our-products span {
+  margin-right: 10px;
+  position: relative;
+  bottom: 10px;
+}
+
+.our-products .product-details {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 480px;
+  margin: 0px;
+  text-align: left;
+  margin: 40px 0px;
+}
+
+.our-products .products_img {
+  position: relative;
+}
+
+.our-products .products_img img {
+  max-width: 700px;
+}
+
+.our-products .products_img .content-1 {
+  position: absolute;
+  top: -40px;
+  right: -30px;
+  background: rgba(100, 149, 237, 0.9);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/*************** our products ends ***************/
