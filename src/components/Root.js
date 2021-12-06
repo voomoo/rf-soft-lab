@@ -8,6 +8,10 @@ import About from "./About";
 import OurServices from "./OurServices";
 import Innovation from "./Innovation";
 import OurProducts from "./OurProducts";
+import Business from "./Business";
+import Testimonial from "./Testimonial";
+import Team from "./Team";
+import News from "./News";
 
 function Root() {
   return (
@@ -19,6 +23,10 @@ function Root() {
       <OurServices />
       <Innovation />
       <OurProducts />
+      <Business />
+      <Testimonial />
+      <Team />
+      <News />
     </div>
   );
 }

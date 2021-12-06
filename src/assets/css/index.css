@@ -401,13 +401,260 @@ code {
   max-width: 700px;
 }
 
-.our-products .products_img .content-1 {
+.our-products .products_img .content-1,
+.our-products .products_img .content-2 {
   position: absolute;
-  top: -40px;
-  right: -30px;
   background: rgba(100, 149, 237, 0.9);
   border-radius: 10px;
-  padding: 10px;
+  padding: 40px 20px;
+
+  color: white;
+  margin: 0px;
+}
+
+.our-products .products_img .content-1 {
+  top: -40px;
+  right: -30px;
+}
+
+.our-products .products_img .content-1 p,
+.our-products .products_img .content-2 p {
+  margin: 0px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.our-products .products_img .content-1 h5,
+.our-products .products_img .content-2 h5 {
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.our-products .products_img .content-2 {
+  bottom: -40px;
+  right: -30px;
 }
 
 /*************** our products ends ***************/
+
+/*************** business starts ***************/
+
+.business {
+  margin: 60px 0px;
+}
+.business h3 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  max-width: 220px;
+  display: block;
+  margin: 60px auto;
+}
+
+.business .left {
+  border-right: 3px solid #afc8f4;
+  position: relative;
+}
+
+.business .left::before {
+  content: "";
+  height: 300px;
+  border-right: 3px solid #afc8f4;
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.business .left::after {
+  content: "";
+  height: 300px;
+  border-right: 3px solid #afc8f4;
+  position: absolute;
+  right: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.business .left img {
+  margin: 0 auto;
+  max-width: 300px;
+  display: block;
+}
+
+.business .right img {
+  margin: 0 auto;
+  max-width: 300px;
+  display: block;
+}
+/*************** business ends ***************/
+
+/*************** testimonial starts ***************/
+.testimonial {
+  position: relative;
+  margin: 200px 0px;
+}
+
+.testimonial h2 {
+  text-align: center;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+
+.testimonial p {
+  text-align: center;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.testimonial .slick-track {
+  height: 400px !important;
+}
+
+.testimonial .slick-slide .testimonial-card h6 {
+  color: black !important;
+}
+.testimonial .slick-current {
+  position: relative;
+  bottom: 50px;
+}
+.testimonial .slick-current .testimonial-card {
+  background-color: rgba(100, 149, 237, 0.7);
+}
+.testimonial .slick-current .testimonial-card h6 {
+  color: white !important;
+}
+
+/*************** testimonial ends ***************/
+
+/*************** testimonial-card starts ***************/
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 60px 20px;
+  position: relative;
+}
+
+.testimonial-card .user {
+  position: absolute;
+  bottom: -50%;
+  color: black;
+}
+
+.testimonial-card .user p {
+  margin: 0px;
+}
+
+.testimonial-card .user img {
+  margin: 0 auto;
+}
+/*************** testimonial-card ends ***************/
+
+/*************** team starts ***************/
+.team .slick-track {
+  padding: 10px;
+}
+
+.team h2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 92px;
+  margin-bottom: 20px;
+}
+
+.team p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 100px;
+}
+
+/*************** team ends ***************/
+
+/*************** team-card starts ***************/
+.team-card .card {
+  box-shadow: 0px 4px 15px rgba(100, 149, 237, 0.3);
+  border-radius: 20px;
+}
+
+.team-card {
+  display: block;
+  margin: 0 auto;
+}
+
+.team-card p {
+  margin: 0px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
+
+/*************** team-card ends ***************/
+
+/*************** news starts ***************/
+.news {
+  background: var(--background2);
+  padding: 50px 0px;
+}
+
+.news h2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.news p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+/*************** news ends ***************/
