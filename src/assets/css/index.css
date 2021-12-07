@@ -695,8 +695,23 @@ code {
   margin: 0 auto;
 }
 
-.footer .subscribe input {
-  margin-right: 20px;
+.footer {
+  background: rgba(100, 149, 237, 0.17);
+  padding-top: 100px;
+}
+
+.footer button {
+  background: var(--primary-color);
+  color: white;
+}
+
+.footer .info {
+  display: flex;
+  flex-direction: column;
+}
+.footer .quick-links {
+  display: flex;
+  flex-direction: column;
 }
 
 /*************** footer ends ***************/
