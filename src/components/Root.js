@@ -12,6 +12,8 @@ import Business from "./Business";
 import Testimonial from "./Testimonial";
 import Team from "./Team";
 import News from "./News";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 function Root() {
   return (
@@ -27,6 +29,8 @@ function Root() {
       <Testimonial />
       <Team />
       <News />
+      <Contact />
+      <Footer />
     </div>
   );
 }

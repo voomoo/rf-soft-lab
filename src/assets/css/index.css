@@ -658,3 +658,45 @@ code {
 }
 
 /*************** news ends ***************/
+
+/*************** contact starts ***************/
+.contact .contact-form {
+  max-width: 900px;
+  background: rgba(100, 149, 237, 0.05);
+  border-radius: 20px;
+  padding: 50px 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.contact .contact-form button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 70px;
+  background: var(--primary-color);
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.contact {
+  padding: 70px 0px;
+}
+
+/*************** contact ends ***************/
+
+/*************** footer starts ***************/
+.footer .subscribe {
+  max-width: 450px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer .subscribe input {
+  margin-right: 20px;
+}
+
+/*************** footer ends ***************/
